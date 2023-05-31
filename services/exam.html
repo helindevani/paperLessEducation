@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="shortcut icon" type="png" href="/images/icon/favicon.png">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Comaptible" content="IE=edge">
+	<title>eLearns</title>
+	<meta name="desciption" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="/style.css">
+	<script type="text/javascript" src="/script.js"></script>
+	<link rel="stylesheet" type="text/css" href="subjects.css">
+	<link rel="stylesheet" type="text/css" href="quizStyle.css">	
+	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+</head>
+
+<body>
+	
+	<!-- NAVIGATION -->
+	<nav>
+        <div class="logo"><h2>eLearns</h2></div>
+		<a class="get-started" href="/afterLogin.html">Home</a>
+        <a class="get-started" href="index.html">LogOut</a>
+        <img src="images/icon/menu.png" class="menu" onclick="sideMenu(0)" alt="menu">
+    </nav>
+	<!-- MAIN Heading of Page -->
+	<div class="title" id="title">
+		<span>Exam </span>
+		<div class="shortdesc"><br>
+			<p>If you think education is expensive, try ignorance</p>
+		</div>
+		<button onclick="startquiz()">Start Now</button>
+	</div>
+
+
+	<div class="panel" id="panel">
+
+		<div class="left-side" id="left">
+			<ul>
+				<li onclick="quizt(1)">Home</li>
+				<li onclick="quizt(6)">Semester-4 Java</li>
+				<li onclick="quizt(7)">Semester-5 Python</li>
+				<li onclick="quizt(8)">Semester-6 JvaScript</li>
+				<li onclick="quizt(9)">Semester-3 Data Structures</li>
+				<li onclick="quizt(10)">Semester-7 Algorithm</li>
+				<li onclick="quizt(11)">Placement Interview Questions</li>
+			</ul>
+		</div>
+
+		<div class="right-side" id="right">
+			<div id="quiz-container">
+
+				<div id="f1">
+					<div class="quiz-frame main-frame"></div>
+				</div>
+				<div id="f6"><iframe class="quiz-frame"
+						src="https://docs.google.com/forms/d/e/1FAIpQLSdHFDm_BakVxro_zJI78OF2OLJpXgDzzaAVMHD9hptWlXBSpA/viewform?embedded=true"
+						frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe></div>
+
+				<div id="f7"><iframe class="quiz-frame"
+						src="https://docs.google.com/forms/d/e/1FAIpQLSdgD7yFEJtqpkImDiLAaQ7w9VcsO688gr1V3Gl7FqwM5yXtWQ/viewform?embedded=true"
+						frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe></div>
+
+				<div id="f8"><iframe class="quiz-frame"
+						src="https://docs.google.com/forms/d/e/1FAIpQLSchDBnai_Aup7YFJQegg4z-qoB338p010VgZRxBYDT17xoRew/viewform?embedded=true"
+						frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe></div>
+
+				<div id="f9"><iframe class="quiz-frame"
+						src="https://docs.google.com/forms/d/e/1FAIpQLSfY5oIAz4R9Ty-LBpx7h4th6OJ0-RkrxIlLslRV4NjwwW8_uw/viewform?embedded=true"
+						frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe></div>
+
+				<div id="f10"><iframe class="quiz-frame"
+						src="https://docs.google.com/forms/d/e/1FAIpQLSflwS89sG7H98J9vFgFqJgsKaZ5gpq3yUlOiW3up7RQQ-qRnw/viewform?embedded=true"
+						frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe></div>
+
+				<div id="f11"><iframe class="quiz-frame"
+						src="https://docs.google.com/forms/d/e/1FAIpQLSe_aS8-CMNFdUzI1UE73zahC2bmMwJkmB6FJXPIeKbLIBqB4Q/viewform?embedded=true"
+						frameborder="0" marginheiclass="quiz-frame" ght="0" marginwidth="0">Loading…</iframe></div>
+
+			</div>
+		</div>
+
+	</div>
+
+	<script type="text/javascript" src="../script.js"></script>
+</body>
+
+</html>
